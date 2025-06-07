@@ -11,28 +11,30 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: rgb(18, 156, 5);
 }
 .main {
     display: flex;
     flex-flow: column;
-    width: 85%;
+    width:90%;
 }
 .menu {
-    width: 15%;
-    background-color: aqua;
+    width: 10%;
+    background-color: rgb(18, 156, 5);
     padding: 10px 20px 0px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
+    background-color: rgb(18, 156, 5);
+    min-height: 160px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 .content {
-    background-color: white;
+    background-color: #39b7ff;
     min-height: 300px;
     padding: 20px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: #39b7ff;
     min-height: 150px;
 }
